@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  min-height: 100vh;
+  padding: 20px;
+  color: #333;
+}
+
+header {
+  font-size: 2em;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #000000, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+  transition: border-color 0.3s ease;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4facfe;
+  color: #fff; /* Changed back to #fff to maintain contrast and readability */
+  transition: background-color 0.3s ease, background 0.3s ease,
+    border-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00f2fe;
+}
+
+.note-list {
+  margin-top: 20px;
+}
+
+.note-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.note-list li {
+  background: rgba(255, 255, 255, 0.3);
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-list li span {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+.note-list li p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.note-list li small {
+  display: block;
+  margin-top: 10px;
+  color: #777;
+}
+
+.note-list button {
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #4facfe;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.note-list button:hover {
+  background-color: #00f2fe;
+}
